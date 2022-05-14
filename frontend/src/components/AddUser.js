@@ -23,7 +23,7 @@ const AddUser = () => {
   };
 
   return (
-    <div className="columns ">
+    <div className="columns is-centered mt-5 ">
       <div className="column is-half">
         <h1 className="title is-1 has-text-primary-dark has-text-centered has-background-success-light">Add New User</h1>
         <form onSubmit={saveUser}>
