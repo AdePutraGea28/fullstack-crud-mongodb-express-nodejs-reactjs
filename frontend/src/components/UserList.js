@@ -24,7 +24,7 @@ const UserList = () => {
   };
 
   return (
-    <div className="columns">
+    <div className="columns is-centered mt-5">
       <div className="column is-half">
         <Link to="add" className="button is-success">
           Add New
